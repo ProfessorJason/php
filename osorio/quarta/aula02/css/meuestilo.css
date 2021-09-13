@@ -1,0 +1,29 @@
+/* folha de estilos customizada */
+
+body{
+	font-family: "Segoe UI";
+}
+
+p{
+	font-size: 14px;
+	color: #34495e;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a{
+	color: #3498db;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}

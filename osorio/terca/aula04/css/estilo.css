@@ -1,0 +1,30 @@
+body{
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #34495e;
+}
+
+h3{
+	text-align: justify;
+}
+
+.navbar{
+	background-color: #0984e3;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.navbar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.navbar-item{
+	padding: 5px;
+	display: inline;
+}
+
+.navbar-link{
+	text-decoration: none;
+	color: #ffeaa7;
+}

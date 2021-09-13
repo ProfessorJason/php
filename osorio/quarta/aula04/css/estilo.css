@@ -1,0 +1,29 @@
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #636e72;
+}
+
+h3{
+	text-align: justify;
+}
+
+.navbar{
+	padding: 2px;
+	background-color: #0086FF;
+}
+
+.navbar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.nav-item{
+	display: inline;
+	padding: 5px;
+}
+
+.nav-link{
+	color: #FF9E01;
+	text-decoration: none;
+}

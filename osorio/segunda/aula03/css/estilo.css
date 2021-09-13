@@ -1,0 +1,32 @@
+
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #34495e;
+}
+
+h3{
+	color: #718093;
+	font-size: 14px;
+}
+
+.menu{
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.menu ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #3498db;
+}
+

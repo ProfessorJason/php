@@ -1,0 +1,48 @@
+/* Folha de estilo personalizada para este projeto */
+
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	color:  #34495e;
+	background-color: #ecf0f1;
+}
+
+p{
+	color: #16a085;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #3498db;
+}
+
+nav ul li a:visited{
+	color: #3498db;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+label{
+	color: #95a5a6;
+}
+
+a{
+	color:  #2980b9;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #8e44ad;
+}

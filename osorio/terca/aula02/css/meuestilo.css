@@ -1,0 +1,62 @@
+/* arquivo com estilos para as páginas do sistema */
+
+.titulo{
+	font-family: Verdana; /* fonte utilizada por esta classe */
+	color: #666666; /* cor da fonte utilizada */
+}
+
+.texto{
+	font-family: "Segoe UI";
+	color: #16a085;
+	font-size: 12px; /* tamanho da fonte desta classe */
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 12px;
+	color: #34495e;
+	background-color: #ecf0f1;
+}
+
+h1, h2, h3{
+	font-family: Verdana;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a{
+	color: #2980b9;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+form{
+	margin-top: 50px ;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+label{
+	color: #7f8c8d;
+}
+
+.inputs{
+	width: 235px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #95a5a6;
+	border-radius: 5px;
+	padding: 5px;
+	color: #7f8c8d;
+}

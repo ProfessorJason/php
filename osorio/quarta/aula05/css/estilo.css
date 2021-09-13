@@ -1,0 +1,17 @@
+body{
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #273c75;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
