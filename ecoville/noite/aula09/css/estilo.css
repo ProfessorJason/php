@@ -1,0 +1,31 @@
+body {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #353b48;
+}
+
+label {
+	font-weight: bold;
+	color: #718093;
+}
+
+h1 : h4 {
+	color: #192a56;
+}
+
+.menu ul {
+	padding: 0px;
+	background-color: #2f3640;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 5px;
+	list-style: none;
+}
+
+.menu a {
+	color: #00a8ff;
+	text-decoration: none;
+}
+
