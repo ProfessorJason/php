@@ -1,0 +1,40 @@
+
+body {
+	font-family: "Segoe UI";
+	font-size: 14px;
+	color: #353b48;
+	/*background-image: url("../images/space_bkg.jpg");
+	background-repeat: no-repeat;*/
+}
+
+label {
+	font-size: 12px;
+	color: #718093;
+}
+
+button {
+	border-radius: 8px;
+	padding: 5px;
+	border-width: 1px;
+	border:  solid;
+	border-color: #dcdde1;
+	background-color: #f5f6fa;
+	color: #487eb0;
+}
+
+.menu ul {
+	padding: 0px;
+	background-color: #2f3640;
+}
+
+.menu li {
+	padding: 10px;
+	display: inline-block;
+	list-style: none;
+}
+
+.menu a {
+	color: #00a8ff;
+	text-decoration: none;
+}
+
