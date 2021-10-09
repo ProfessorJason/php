@@ -13,7 +13,7 @@
 
 	<h4>
 		Zézinho tem 1,45m de altura, e seu amigo Luizinho tem 1,30m de altura. <br>
-		Sabendo que Zézinho cresce 3cm por ano, e Luizinho 5cm, daqui ha quantos anos Luizinho será mais alto que Zézinho?
+		Sabendo que Zézinho cresce 2cm por ano, e Luizinho 3cm, daqui ha quantos anos Luizinho será mais alto que Zézinho?
 	</h4>
 
 	<h3>Resultado:</h3>
@@ -26,8 +26,8 @@
 
 	while ($zezinho >= $luizinho )
 	{
-		$zezinho  += 0.03; // 2cm por ano
-		$luizinho += 0.05; // 3cm por ano
+		$zezinho  = number_format($zezinho + 0.02, '2'); // 2cm por ano
+		$luizinho = number_format($luizinho + 0.03, '2'); // 3cm por ano
 		$anos++; // aumentou a quantiade de anos decorridos
 	}
 
