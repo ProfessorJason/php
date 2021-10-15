@@ -12,7 +12,7 @@
 	<?php include_once 'menu.php'; ?>
 
 	<h4>
-		Percorrer um intervalor finito de valores, iniciando em -10 e indo até 'x'. Não sabemos qual será o último valor ('x'), apenas que pararemos de contar até que tenhamos encontrado 47 números impares. <br>
+		Percorrer um intervalo finito de valores, iniciando em -10 e indo até 'x'. Não sabemos qual será o último valor da sequência ('x'), apenas que pararemos de contar até que tenhamos encontrado 47 números impares. <br>
 		Ao final, mostrar o último valor da sequência.
 	</h4>
 

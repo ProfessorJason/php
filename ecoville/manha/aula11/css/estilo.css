@@ -1,0 +1,44 @@
+body{
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #57606f;
+}
+
+a {
+	color: #ffa502;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6348;
+	text-decoration: underline;
+}
+
+span {
+	margin-left: 15px;
+}
+
+.menu ul {
+	padding: 0px;
+	background-color: #2f3542;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu a {
+	text-decoration: none;	
+	color: #eccc68;
+}
+
+.code {
+	padding: 20px;
+	background-color: #f1f2f6;
+	font-size: 12px;
+	font-family: "Courier New";
+	font-style: oblique; /* itálico */
+}
+

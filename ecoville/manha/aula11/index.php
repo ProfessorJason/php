@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Aula 10 - Home</title>
+	<title>Aula 11 - Home</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
 
-	<h1>Aula 10 - Home - Laços de Repetição</h1>
+	<h1>Aula 11 - Home - Laços de Repetição</h1>
 
 	<p>
 		Laços de repetição são estruturas que permitem, como o nome sugere, repetir a execução de determiandos comandos dentro de um programa. <br>
@@ -16,10 +16,10 @@
 	<p>
 		No PHP, trabalhamos basicamente com 4 tipos de de laços de repetição:
 		<ul>
-			<li><a href="for/index.php">FOR - Para</a></li>
-			<li><a href="while/index.php">WHILE - Enquanto</a></li>
-			<li>DO / WHILE - Faça / Enquanto</li>
-			<li>FOREACH - Para Cada (próprio para arrays)</li>
+			<li>FOR - Para</li>
+			<li>WHILE - Enquanto</li>
+			<li><a href="dowhile/index.php">DO / WHILE - Faça / Enquanto</a></li>
+			<li><a href="foreach/index.php">FOREACH - Para Cada (próprio para arrays)</a></li>
 		</ul>
 	</p>
 
