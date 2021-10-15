@@ -17,12 +17,12 @@
 
 	<h4>Sintaxe:</h4>
 
-<pre>
-	while (condição verdadeira)
-	{
-		<-codigos->
+<p class="code">
+	while (condição verdadeira) <br>
+	{ <br>
+		<span><-codigos-></span> <br>
 	}
-</pre>
+</p>
 
 </body>
 </html>

@@ -19,10 +19,10 @@
 
 	
 	<h4>Sintaxe:</h4>
-	<pre>
-	for (início do contador; condição de execução; incremento/decremento do contador)
-	{
-		<-codigo->
+	<p class="code">
+	for (início do contador; condição de execução; incremento/decremento do contador) <br>
+	{ <br>
+		<span><-codigo-></span> <br>
 	}
 	</pre>
 
