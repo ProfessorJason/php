@@ -24,6 +24,6 @@
 			<li>FOREACH (PARA CADA - PRÓPRIO PARA ARRAYS)</li>
 		</ul>
 	</p>
-
+	
 </body>
 </html>
