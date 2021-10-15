@@ -13,7 +13,7 @@
 
 	<h4>
 		Percorrer um intervalo finito de valores, iniciando em -12 e indo até 'x', sendo este valor positivo. <br>
-		Não sabemos inicialmente qual o valor fe 'x', apenas que pararemos de contar (percorrer o intervalo) quando encontrarmos 49 números impares dentro deste intervalo. <br>
+		Não sabemos inicialmente qual o valor final da sequência ('x'), apenas que pararemos de contar (percorrer o intervalo) quando encontrarmos 49 números impares dentro deste intervalo. <br>
 		Ao final, mostrar qual o último valor da sequência.
 	</h4>
 
