@@ -14,6 +14,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+span {
+	margin-left: 15px;
+}
 
 .menu ul {
 	padding: 0px;
@@ -29,4 +32,12 @@ a:hover {
 .menu a {
 	text-decoration: none;	
 	color: #eccc68;
+}
+
+.code {
+	padding: 20px;
+	background-color: #f1f2f6;
+	font-size: 12px;
+	font-family: "Courier New";
+	font-style: oblique; /* itálico */
 }
