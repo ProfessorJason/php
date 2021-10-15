@@ -30,7 +30,7 @@
 		// verificar se o valor atual do contador é par
 		if ($cont % 2 == 0)
 		{
-			echo $cont . "<br>";
+			echo $cont . "; ";
 		}
 	}
 
