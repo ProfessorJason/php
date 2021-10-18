@@ -12,7 +12,7 @@
 	<?php include_once '../menu.php'; ?>
 
 	<p>
-		mostre todos os valores pares entre 2 e 8. Utilize um do/while nesta resolução. Após mostrar todos os valores pares dentro deste intervalo, mostre o valor final do contador.
+		Mostre todos os valores pares entre 2 e 8. Utilize um do/while nesta resolução. Após mostrar todos os valores pares dentro deste intervalo, mostre o valor final do contador.
 	</p>
 
 	<h3>Resultado</h3>
