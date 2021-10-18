@@ -1,0 +1,46 @@
+body {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #2f3542;
+}
+
+a {
+	color: #ff6348;
+	text-decoration: none;
+}
+
+a:hover{
+	color:  #ff4757;
+}
+
+h1,h3,h4 {
+	color: #3742fa;
+}
+
+pre {
+	background-color: #dfe4ea;
+	font-family: "Courier New";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.menu ul {
+	background-color: #2f3542;
+	padding: 0px;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu a {
+	color: #1e90ff;
+	text-decoration: none;
+}
+
+.menu li:hover{
+	background-color: #57606f;
+}
