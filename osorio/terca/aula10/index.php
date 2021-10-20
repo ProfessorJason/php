@@ -21,7 +21,7 @@
 			<li><a href="for/">FOR (PARA)</a></li>
 			<li><a href="while/">WHILE (ENQUANTO)</a></li>
 			<li><a href="dowhile/">DO/WHILE (FAÇA/ENQUANTO)</a></li>
-			<li>FOREACH (ESPECIAL PAR ARRAYS)</li>
+			<li>FOREACH (ESPECIAL PARA ARRAYS)</li>
 		</ul>
 	</p>
 
