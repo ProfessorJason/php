@@ -20,7 +20,7 @@
 		<ul>
 			<li><a href="for/index.php">FOR (PARA)</a></li>
 			<li><a href="while/index.php">WHILE (ENQUANTO)</a></li>
-			<li>DO / WHILE (FAÇA / ENQUANTO)</li>
+			<li><a href="dowhile/">DO / WHILE (FAÇA / ENQUANTO)</a></li>
 			<li>FOREACH (PARA CADA - PRÓPRIO PARA ARRAYS)</li>
 		</ul>
 	</p>
