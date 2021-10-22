@@ -1,0 +1,23 @@
+body {
+	color: #3d3d3d;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #17c0eb;
+}
+
+a:hover {
+	color: #ff4d4d;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	color: #17c0eb;
+}
+
+.erro {
+	color: #ff3838;
+}
