@@ -1,0 +1,38 @@
+body {
+	color: #3d3d3d;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	color: #17c0eb;
+}
+
+pre {
+	background-color: #dfe4ea;
+	font-family: "Courier New";
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.menu ul {
+	background-color: #3d3d3d;
+	padding: 0px;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+
+.menu li:hover {
+	background-color: #4b4b4b;
+}
+
+.menu a {
+	color:  #18dcff;
+	text-decoration: none;
+}
+
