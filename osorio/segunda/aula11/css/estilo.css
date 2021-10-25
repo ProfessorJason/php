@@ -16,6 +16,15 @@ pre {
 	padding: 20px;
 }
 
+a {
+	color:  #17c0eb;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 .menu ul {
 	background-color: #3d3d3d;
 	padding: 0px;
