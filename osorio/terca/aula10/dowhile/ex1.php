@@ -12,7 +12,7 @@
 	<?php include_once '../menu.php'; ?>
 
 	<p>
-		Mostrar o valor da variável 'x' na tela enquanto ela for menor que 10. Entrtetantom faça ela iniciar de 19.
+		Mostrar o valor da variável 'x' na tela enquanto ela for menor que 10. Entrtetanto, faça ela iniciar de 19.
 	</p>
 
 	<h3>Resultado:</h3>
