@@ -1,0 +1,52 @@
+
+body {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #2f3542; 
+}
+
+h1, h2, h3, h4 {
+	color: #5352ed;
+}
+
+a {
+	color: #ff6348;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ff4757;
+	text-decoration: underline;
+}
+
+pre {
+	background-color: #dfe4ea;
+	margin: 5px;
+	padding: 20px;
+	font-family: "Courier New";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.menu ul {
+	padding: 0px;
+	background-color: #2f3542;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu li:hover {
+	background-color: #a4b0be;
+}
+
+.menu a {
+	color: #1e90ff;
+	text-decoration: none;
+}
+
+
+
