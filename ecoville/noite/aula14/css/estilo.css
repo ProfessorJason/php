@@ -1,0 +1,14 @@
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #303952;
+}
+
+a {
+	color: #3dc1d3;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
