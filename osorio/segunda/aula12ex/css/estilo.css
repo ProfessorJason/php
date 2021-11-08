@@ -1,0 +1,30 @@
+/* combinação de cores preferidas do profe */
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #222f3e;
+}
+
+h4 {
+	color: #ee5253;
+}
+
+.menu ul {
+	padding: 0px;
+	background-color: #222f3e;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu li:hover{
+	background-color: #576574;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #00d2d3;
+}
