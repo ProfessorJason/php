@@ -78,6 +78,8 @@ function exibir_pratos()
 		// converter os dados deste objeto em um array associativo
 		while($prato = mysqli_fetch_assoc($result))
 		{
+			$prato['valor'] = number_format($prato['valor'], '2', ',', '.');
+
 			$formatado .= "ID #: " 		. $prato['id_prato'] . "<br>";
 			$formatado .= "Prato: " 	. $prato['nome']  . "<br>";
 			$formatado .= "Tipo: " 		. $prato['tipo']  . "<br>";
