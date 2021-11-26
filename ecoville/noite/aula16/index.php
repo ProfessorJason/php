@@ -10,7 +10,18 @@
 
 	<h1>Aula 16 - Home</h1>
 
-	<h2>Utilize o form abaixo para cadastrar novos jogos digitais</h2>
+	<?php  
+	// verificar se esta páigna recebeu o argumento msg via get
+	if (isset($_GET['msg']))
+	{
+		include_once 'util.php';
+		echo validar_msg($_GET['msg']);
+	}
+
+	?>
+
+
+	<h3>Utilize o form abaixo para cadastrar novos jogos digitais</h3>
 
 	<form action="cadastrar.php" method="post">
 		

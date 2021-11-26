@@ -81,16 +81,86 @@ function exibir_jogos()
 		// transforme cada linha de $result num array associativo
 		while($jogo = mysqli_fetch_assoc($result))
 		{
-			$retorno .= "Título: " . $jogo['titulo'] . "<br>";
-			$retorno .= "Gênero: " . $jogo['genero'] . "<br>";
-			$retorno .= "Ano de lançamento: " . $jogo['ano'] . "<br><br>";
+			$retorno .= "Título: " 			  . $jogo['titulo'] . "<br>";
+			$retorno .= "Gênero: " 			  . $jogo['genero'] . "<br>";
+			$retorno .= "Ano de lançamento: " . $jogo['ano'] 	. "<br>";
+			$retorno .= link_deletar($jogo['id_jogo']) 			. " | ";
+			$retorno .= link_editar($jogo['id_jogo']) 			. "<br><br>";
 		}
-
 		return $retorno;
-
 	}
 		
 }
 
+// função para criar o link deletar jogo
+function link_deletar($id_jogo)
+{
+	$link = '<a href="deletar.php?id_jogo='.$id_jogo.'" 
+	onclick="return confirm(\'Tem certeza que deseja excluir este jogo?\')">Deletar</a>';
+	return $link;
+}
+
+// função para criar o link para editar um jogo
+function link_editar($id_jogo)
+{
+	$link = '<a href="editar.php?id_jogo='.$id_jogo.'">Editar</a>';
+	return $link;
+}
+
+// função para deletar um jogo específico
+function deletar_jogo($id_jogo)
+{
+	$conexao = conectar();
+
+	$sql = "DELETE FROM jogos_tb WHERE id_jogo = $id_jogo";
+
+	$result = mysqli_query($conexao, $sql);
+
+	if(mysqli_affected_rows($conexao) > 0)
+	{
+		return true;
+	}
+
+	return false;
+}
+
+// função para buscar um jogo específico
+function buscar_jogo($id_jogo)
+{
+	$conexao = conectar();
+
+	// buscar jogo que contenha o id informado
+	$sql = "SELECT * FROM jogos_tb WHERE id_jogo = $id_jogo";
+
+	// executamos o comando e armazenamos o retorno em $result
+	$result = mysqli_query($conexao, $sql);
+
+	// verificar se o comando sql executado afetou no. de linhas maior que zero
+	if(mysqli_affected_rows($conexao) > 0)
+	{
+		// se for true, sinal que encontramos um jogo com o id informado na tabela jogos_tb
+		return $result; // retorna o jogo encontrado
+	}
+
+	return null; // jogo NÃO foi encontrado
+}
+
+// função para alterar os dados de um jogo especifico
+function editar_jogo($id_jogo, $titulo, $genero, $ano)
+{
+	$conexao = conectar();
+
+	$sql = "UPDATE jogos_tb SET titulo = '$titulo', genero = '$genero', ano = $ano 
+	WHERE id_jogo = $id_jogo";
+
+	$result = mysqli_query($conexao, $sql);
+
+	if (mysqli_affected_rows($conexao) > 0)
+	{
+		return true;
+	}
+
+	return false;
+}
 
 ?>

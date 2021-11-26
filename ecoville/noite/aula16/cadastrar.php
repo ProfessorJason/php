@@ -1,6 +1,6 @@
 <?php  
 // verificar se recebemos dados de um form
-if (isset($_POST['cadastrar']))
+if (isset($_POST['cadastrar']) && !empty($_POST['titulo']) && !empty($_POST['ano']))
 {
 	// prosseguimos com o codigo:
 
@@ -23,7 +23,7 @@ if (isset($_POST['cadastrar']))
 	else
 	{
 		// voçlta para página principal com msg de erro!
-		header('location:index.php?msg=erro_ao_cadasrtrar');
+		header('location:index.php?msg=erro_ao_cadastrar');
 	}
 }
 else
