@@ -1,6 +1,6 @@
 <?php  
 // verificar se recebemos dados de um form
-if (isset($_POST['cadastrar']))
+if (isset($_POST['cadastrar']) && !empty($_POST['titulo']) && !empty($_POST['ano']))
 {
 	// prosseguimos com o codigo:
 

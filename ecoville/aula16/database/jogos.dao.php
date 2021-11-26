@@ -81,15 +81,86 @@ function exibir_jogos()
 		// transforme cada linha de $result num array associativo
 		while($jogo = mysqli_fetch_assoc($result))
 		{
-			$retorno .= "Título: " . $jogo['titulo'] . "<br>";
-			$retorno .= "Gênero: " . $jogo['genero'] . "<br>";
-			$retorno .= "Ano de lançamento: " . $jogo['ano'] . "<br><br>";
+			$retorno .= "Título: " 			  . $jogo['titulo'] . "<br>";
+			$retorno .= "Gênero: " 			  . $jogo['genero'] . "<br>";
+			$retorno .= "Ano de lançamento: " . $jogo['ano'] 	. "<br>";
+
+			$retorno .= link_deletar($jogo['id_jogo']) . " | ";
+			$retorno .= link_editar($jogo['id_jogo'])  . "<br><br>";
 		}
 
 		return $retorno;
 
 	}
 		
+}
+
+// função para montar o link para deletar
+function link_deletar($id_jogo)
+{
+	$link = '<a href="deletar.php?id_jogo='.$id_jogo.'" 
+	onclick="return confirm(\'Tem certeza que deseja excluir este jogo?\')">Deletar</a>';
+
+	return $link;
+}
+
+// função para montar o link para editar
+function link_editar($id_jogo)
+{
+	$link = '<a href="editar.php?id_jogo='.$id_jogo.'">Editar</a>';
+	return $link;
+}
+
+// função para deletar jogo do banco de dados
+function deletar_jogo ($id_jogo)
+{
+	$conexao = conectar();
+
+	$sql = "DELETE FROM jogos_tb WHERE id_jogo = $id_jogo";
+
+	$result = mysqli_query($conexao, $sql);
+
+	if(mysqli_affected_rows($conexao) > 0)
+	{
+		return true;
+	}
+	
+	return false;
+}
+
+// função para buscar jogo especifico
+function buscar_jogo($id_jogo)
+{
+	$conexao = conectar();
+
+	$sql = "SELECT * FROM jogos_tb WHERE id_jogo = $id_jogo";
+
+	$result = mysqli_query($conexao, $sql);
+
+	if (mysqli_affected_rows($conexao) > 0)
+	{
+		return $result; // retorna o objeto contendo o jogo encontrado
+	}
+
+	return null; // não há nada para retornar
+}
+
+// função para atualizar os dados de um jogo específico
+function editar_jogo($id_jogo, $titulo, $genero, $ano)
+{
+	$conexao = conectar();
+
+	$sql = "UPDATE jogos_tb SET titulo = '$titulo', genero = '$genero', ano = $ano 
+	WHERE id_jogo = $id_jogo";
+
+	$result = mysqli_query($conexao, $sql);
+
+	if (mysqli_affected_rows($conexao) > 0)
+	{
+		return true;
+	}
+
+	return false;
 }
 
 
